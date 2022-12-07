@@ -1,0 +1,26 @@
+{
+  "name": "face",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "lil-gui": "^0.17.0",
+    "parcel": "^2.8.0",
+    "three": "^0.147.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.8.0",
+    "parcel-reporter-static-files-copy": "^1.4.0"
+  },
+  "staticFiles": {
+    "staticPath": "src/model",
+    "staticOutPath": "model"
+  }
+}
